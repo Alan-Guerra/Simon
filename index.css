@@ -1,0 +1,72 @@
+body{
+    background-color: darkslateblue;
+}
+
+#tablero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#rojo, #verde, #azul, #amarillo{
+    position: absolute;
+    max-width: 100%;
+    width: 300px;
+    height:300px;
+    
+}
+
+#rojo {
+    top: 50px;
+    left: 100px;
+    top: 17.4%;
+    left: 32.3%;
+    
+}
+
+#verde {
+    top: 50px;
+    left: 250px;
+    top: 17.4%;
+    left: 48.9%;
+}
+
+#azul {
+    top: 250px;
+    left: 100px;
+    top: 50.4%;
+    left: 32.3%;
+}
+
+#amarillo {
+    top: 250px;
+    left: 250px;
+    top: 50.4%;
+    left: 48.9%;
+}
+
+#puntaje{
+
+    right: 375px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: antiquewhite;
+    font-size: 100px;
+    
+}
+
+#titulo{
+    color: antiquewhite;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    margin-bottom: -5%;
+    
+}
